@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'IBMPlexMono-Regular';
+    src: url('/assets/font/IBMPlexMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('/assets/font/IBMPlexSansKR-Regular.ttf') format('truetype');
+}
+
+/* html tag */
+html, body {
+    width: 1200px;
+    margin: 10px;
+    overflow: auto;
+    font-family: 'IBMPlexMono-Regular', 'IBMPlexSansKR-Thin', monospace;
+    background-color:ghostWhite;
+}
+
+a {
+    color:black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* semantic tag */
+header {
+    border-bottom: 1px solid black;
+}
+
+main {
+    margin: 50px 0;
+}
+
+/* class */
+.list-style-directory { list-style-image: url('/assets/icon/list-directory-icon.png'); }
+.list-style-file { list-style-image: url('/assets/icon/list-file-icon.png');}
+.color-gray { color:gray; }
+.font-small { font-size:small; }
+.font-bold { font-weight:bold; }
+
+.form-layout-1 * { margin: 5px 0;}
+.form-layout-1 label { display:inline-block; width:100px; height:20px; vertical-align:top; text-align:center;}
+.form-layout-1 select { width:1090px; height:30px; }
+.form-layout-1 input { width:1080px; height:30px; }
+.form-layout-1 textarea { width:1080px; height:700px; }
+.form-layout-1 button { float:right; margin-right:5px;}
+
+.date { font-size:small;color:gray; }
+/* article */
+.article h1 {text-align:center;margin:70px 0px;}
+.article h2 {margin-top: 70px;}
+.article h2:before { color:gray;content: "# "; }
+.article h3 {margin-top: 60px;}
+.article h3:before { content: "## "; }
+.article h4 {margin-top: 50px;}
+.article h4:before { content: "### "; }
+.article h5 {margin-top: 40px;}
+.article h5:before { content: "#### "; }
+.article h6 {margin-top: 30px;}
+.article h6:before { content: "##### "; }
+.article blockquote {border-left:10px solid blue;margin-left:0px;padding-left:10px;font-style:italic;}
+.article code.language-plaintext { color:blue; border:1px solid blue;font-style:italic;padding:3px;}
+.article p code.language-plaintext {color:blue; border:1px solid blue;font-style:italic;padding:3px;font-size:small;}
+.article div.highlight {background-color:lightGray; padding:10px; border:1px solid gray;}

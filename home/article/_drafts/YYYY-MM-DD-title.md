@@ -1,12 +1,5 @@
 ---
-layout: default
-title:
-category:
----
-
----
-**index**
--
+layout: article
 ---
 
 # {{ page.title }}

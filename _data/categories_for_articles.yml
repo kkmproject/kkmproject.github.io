@@ -1,2 +1,4 @@
 - name: jekyll
-  link : /home/article/jekyll
+  link: /home/article/jekyll
+- name: codingTest
+  link: /home/article/codingTest

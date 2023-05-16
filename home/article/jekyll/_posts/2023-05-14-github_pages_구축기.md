@@ -4,6 +4,7 @@ layout: article
 
 # {{ page.title }}
 
+{% raw %}
 > 명령행의 경우 Mac 환경에서 진행하였으며, 확장성을 위해 최대한 페이지당 종속되는 명령행은 레이아웃으로 빼내거나 생략하였다.
 
 ## 1. 환경설정
@@ -317,3 +318,4 @@ kkmproject.github.io
 │       └── spring.md
 └── index.md
 ```
+{% endraw %}

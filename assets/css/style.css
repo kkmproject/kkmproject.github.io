@@ -17,6 +17,10 @@ html, body {
     background-color:ghostWhite;
 }
 
+div {
+    overflow: auto;
+}
+
 a {
     color:black;
 }

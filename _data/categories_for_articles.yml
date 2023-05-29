@@ -1,4 +1,8 @@
-- name: Jekyll
-  link: /home/article/jekyll
 - name: CodingTest
   link: /home/article/codingTest
+- name: Jekyll
+  link: /home/article/jekyll
+- name: Movie
+  link: /home/article/movie
+- name: SynologyNas
+  link: /home/article/synologynas

@@ -17,6 +17,6 @@ layout: default
 **Last 5 articles**
 <ul class="list-style-file">
     {% for post in site.posts limit:5 %}
-        <li><a href="{{ post.url }}"><span class="date">[{{ post.date | date : "%Y-%m-%d" }}]</span>{{ post.title }}</a></li>
+        <li><a href="{{ post.url }}"><span class="date">[{{ post.date | date : "%Y-%m-%d" }}]</span><span>[{{ post.categories[-1] }}]</span>{{ post.title }}</a></li>
     {% endfor %}
 </ul>

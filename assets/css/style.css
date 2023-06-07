@@ -66,6 +66,7 @@ main {
 .article h6 {margin-top: 30px;}
 .article h6:before { content: "##### "; }
 .article blockquote {border-left:10px solid blue;margin-left:0px;padding-left:10px;font-style:italic;}
+.article table {border: 1px solid black; width: 100%; text-align:center;}
 
 /* code */
 .article code.language-plaintext { color:blue; border:1px solid blue;font-style:italic;padding:3px;}

@@ -12,6 +12,8 @@ $ echo 'export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"' >> ~/.zshrc
 $ source ~/.zshrc
 $ postgres --version
 $ brew services start postgresql@15
+$ brew services list
+$ brew services info postgresql@15
 $ psql postgres
 
 postgres=# CREATE ROLE ADMIN WITH LOGIN PASSWORD 'ADMIN';

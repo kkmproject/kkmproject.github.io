@@ -1,0 +1,25 @@
+---
+---
+
+<html>
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include header.html %}
+<main>
+    {% assign title = page.name | split: "." | first %}
+
+    <b>{{ title }}</b>
+
+    <ul class="list-style-file">
+        {% for post in site.posts %}
+        {% if post.categories contains title %}
+        <li><a href="{{ post.url }}"><span class="date">[{{ post.date | date : "%Y-%m-%d" }}]</span>{{ post.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</main>
+{% include footer.html %}
+</body>
+</html>

@@ -2,4 +2,4 @@
 layout: article
 ---
 
-# {{ page.title }}
+**{{ page.title }}**

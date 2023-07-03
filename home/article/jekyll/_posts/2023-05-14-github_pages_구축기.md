@@ -142,7 +142,7 @@ $ pwd
 {project_root_path}
 $ mkdir _data
 $ cd _Data
-$ vi categories_for_articles.yml
+$ vi main_categories.yml
 ```
 
 `categories_for_articles.yml`
@@ -254,7 +254,7 @@ kkmproject.github.io
 ├── Gemfile.lock
 ├── _config.yml
 ├── _data
-│   └── categories_for_articles.yml
+│   └── main_categories.yml
 ├── _includes
 │   ├── footer.html
 │   ├── head.html

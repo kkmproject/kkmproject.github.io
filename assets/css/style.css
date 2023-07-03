@@ -1,21 +1,41 @@
+/***********************************************************************************************************************
+font-family: 'IBMPlexMono-Regular'
+***********************************************************************************************************************/
 @font-face {
     font-family: 'IBMPlexMono-Regular';
     src: url('/assets/font/IBMPlexMono-Regular.ttf') format('truetype');
 }
+/**********************************************************************************************************************/
 
+
+
+/***********************************************************************************************************************
+font-family: 'IBMPlexSansKR-Regular'
+***********************************************************************************************************************/
 @font-face {
     font-family: 'IBMPlexSansKR-Regular';
     src: url('/assets/font/IBMPlexSansKR-Regular.ttf') format('truetype');
 }
+/**********************************************************************************************************************/
 
-/* html tag */
+
+
+/***********************************************************************************************************************
+<html>
+<body>
+***********************************************************************************************************************/
 html, body {
     width: 1200px;
     margin: 10px;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
     font-family: 'IBMPlexMono-Regular', 'IBMPlexSansKR-Thin', monospace;
     background-color:ghostWhite;
 }
+/**********************************************************************************************************************/
+
+
+
 
 div {
     overflow: auto;
@@ -58,24 +78,66 @@ main {
 .form-layout-1 textarea { width:1080px; height:700px; }
 .form-layout-1 button { float:right; margin-right:5px;}
 
+/***********************************************************************************************************************
+class="date"
+***********************************************************************************************************************/
 .date { font-size:small;color:gray; }
-/* article */
-.article h1 {margin-top: 70px;}
-.article h1:before { color:gray;content: "# "; }
-.article h2 {margin-top: 70px;}
-.article h2:before { color:gray;content: "## "; }
-.article h3 {margin-top: 60px;}
-.article h3:before { color:gray;content: "### "; }
-.article h4 {margin-top: 50px;}
-.article h4:before { color:gray;content: "#### "; }
-.article h5 {margin-top: 40px;}
-.article h5:before { color:gray;content: "##### "; }
-.article h6 {margin-top: 30px;}
-.article h6:before { color:gray;content: "###### "; }
-.article blockquote {border-left:10px solid gray;margin-left:0px;padding-left:10px;font-style:italic;}
-.article table {border: 1px solid black; width: 100%; text-align:center;}
+/**********************************************************************************************************************/
 
-/* code */
-.article code.language-plaintext { color:blue; border:1px solid blue;font-style:italic;padding:3px;}
-.article p code.language-plaintext {color:blue; border:1px solid blue;font-style:italic;padding:3px;font-size:small;}
+
+/***********************************************************************************************************************
+```
+code
+```
+***********************************************************************************************************************/
 .article div.highlight {background-color:lightGray; padding:10px; border:1px solid gray;}
+/**********************************************************************************************************************/
+
+
+
+/***********************************************************************************************************************
+`code fragment`
+***********************************************************************************************************************/
+.article p code.language-plaintext {color:black; border:1px solid blue;font-size:small;padding:0 5px;}
+/**********************************************************************************************************************/
+
+
+
+/***********************************************************************************************************************
+> blockquote
+***********************************************************************************************************************/
+.article blockquote {
+    border-left:5px solid black;
+    margin:20px 0;
+    background-color:lightGray;
+    width:100%;
+}
+.article blockquote p {
+    padding:0 10px;
+    margin: 0;
+}
+/**********************************************************************************************************************/
+
+
+
+/***********************************************************************************************************************
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+***********************************************************************************************************************/
+.article h1 {margin-top: 50px;}
+.article h1:before { color:gray;content: "# "; }
+.article h2 {margin-top: 40px;}
+.article h2:before { color:gray;content: "## "; }
+.article h3 {margin-top: 30px;}
+.article h3:before { color:gray;content: "### "; }
+.article h4 {margin-top: 20px;}
+.article h4:before { color:gray;content: "#### "; }
+.article h5 {margin-top: 10px;}
+.article h5:before { color:gray;content: "##### "; }
+.article h6 {margin-top: 0px;}
+.article h6:before { color:gray;content: "###### "; }
+/**********************************************************************************************************************/

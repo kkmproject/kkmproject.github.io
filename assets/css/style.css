@@ -36,47 +36,24 @@ html, body {
 
 
 
-
+/***********************************************************************************************************************
+<div>
+***********************************************************************************************************************/
 div {
     overflow: auto;
 }
+/**********************************************************************************************************************/
 
+
+
+/***********************************************************************************************************************
+<a>
+***********************************************************************************************************************/
 a {
     color:black;
 }
+/**********************************************************************************************************************/
 
-ul {
-    list-style-type: square;
-}
-
-/* semantic tag */
-header {
-    text-align: center;
-    border-bottom: 1px solid black;
-}
-
-footer {
-    border-top: 1px solid black;
-    padding-top: 30px;
-}
-
-main {
-    margin: 50px 0;
-}
-
-/* class */
-.list-style-directory { list-style-image: url('/assets/icon/list-directory-icon.png'); }
-.list-style-file { list-style-image: url('/assets/icon/list-file-icon.png');}
-.color-gray { color:gray; }
-.font-small { font-size:small; }
-.font-bold { font-weight:bold; }
-
-.form-layout-1 * { margin: 5px 0;}
-.form-layout-1 label { display:inline-block; width:100px; height:20px; vertical-align:top; text-align:center;}
-.form-layout-1 select { width:1090px; height:30px; }
-.form-layout-1 input { width:1080px; height:30px; }
-.form-layout-1 textarea { width:1080px; height:700px; }
-.form-layout-1 button { float:right; margin-right:5px;}
 
 /***********************************************************************************************************************
 class="date"
@@ -141,3 +118,38 @@ code
 .article h6 {margin-top: 0px;}
 .article h6:before { color:gray;content: "###### "; }
 /**********************************************************************************************************************/
+
+
+
+ul {
+    list-style-type: square;
+}
+
+/* semantic tag */
+header {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 30px;
+}
+
+main {
+    margin: 50px 0;
+}
+
+/* class */
+.list-style-directory { list-style-image: url('/assets/icon/list-directory-icon.png'); }
+.list-style-file { list-style-image: url('/assets/icon/list-file-icon.png');}
+.color-gray { color:gray; }
+.font-small { font-size:small; }
+.font-bold { font-weight:bold; }
+
+.form-layout-1 * { margin: 5px 0;}
+.form-layout-1 label { display:inline-block; width:100px; height:20px; vertical-align:top; text-align:center;}
+.form-layout-1 select { width:1090px; height:30px; }
+.form-layout-1 input { width:1080px; height:30px; }
+.form-layout-1 textarea { width:1080px; height:700px; }
+.form-layout-1 button { float:right; margin-right:5px;}

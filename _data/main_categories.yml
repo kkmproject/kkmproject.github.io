@@ -1,8 +1,4 @@
-- name: Thymeleaf
-  link: /home/article/thymeleaf
-- name: SynologyNas
-  link: /home/article/synologynas
+- name: Algorithms
+  link: /home/article/algorithms
 - name: Jekyll
   link: /home/article/jekyll
-- name: Java
-  link: /home/article/java

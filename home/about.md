@@ -2,6 +2,6 @@
 layout: default
 ---
 
-**About kkmproject**
+**Contact**
 
 email : 1721046@gmail.com

@@ -2,8 +2,6 @@
 layout: article
 ---
 
-# {{ page.title }}
-
 ---
 
 **index**

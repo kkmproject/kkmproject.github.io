@@ -9,6 +9,9 @@
 <body>
 {% include header.html %}
 <main class="article">
+    <b>{{ page.title }}</b>
+    <div class="date">게시일: {{ page.date | date : "%Y-%m-%d" }}</div>
+    <br>
     {{ content }}
 </main>
 {% include footer.html %}

@@ -1,5 +1,7 @@
 - name: Network
   link: /home/article/network
+- name: Algorithms
+  link: /home/article/algorithms
 - name: Jekyll
   link: /home/article/jekyll
 - name: Methodology

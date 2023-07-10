@@ -1,3 +1,5 @@
+- name: Document
+  link: /home/article/document
 - name: Network
   link: /home/article/network
 - name: Algorithms
